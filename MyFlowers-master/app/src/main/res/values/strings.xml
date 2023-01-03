@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MyFlowers</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">MyFlowers</string>
+    <string name="second_fragment_label">Selaa kasveja</string>
+    <string name="next">Selaa kasveja</string>
+    <string name="previous">Takaisin</string>
+
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="kukat">
+        <item>Kaktus</item>
+        <item>Kielo</item>
+        <item>Sinikello</item>
+        <item>Myrkkymuratti</item>
+        <item>Auringonkukka</item>
+        <item>Narsissi</item>
+        <item>Rentunruusu</item>
+        <item>Jukka palmu</item>
+        <item>Yukka palmu</item>
+        <item>Hortenssia</item>
+        <item>Peikko</item>
+        <item>Nukkumatti</item>
+    </string-array>
+
+    <string name="Kaktus">Kaktuskasvit eli kaktukset (Cactaceae) ovat kaksisirkkaisten kasvien heimo, jonka 1 500–1 800 lajia ovat pääasiassa piikikkäitä mehikasveja. Sukuja on tulkinnasta riippuen 24–220, joskin noin 90 on laajimmin hyväksytty määrä. Angiosperm Phylogeny Website kertoo sukujen määräksi 131 ja lajien määräksi 1 866.</string>
+    <string name="Kielo">Kielo (Convallaria majalis) on Convallaria-sukuun kuuluva monivuotinen, ruohovartinen kasvi. Se on myös sukunsa ainoa laji, vaikka jotkut tutkijat pitävät sen eri maantieteellisiä muotoja erillisinä lajeina. Kielo kukkii touko–kesäkuussa valkoisin, hyväntuoksuisin kukin. Sen lehdet ovat ehytlaitaiset ja kielen muotoiset, joiden perusteella se on saanut suomenkielisen nimensä. Lajin tieteellinen nimi puolestaan viittaa Raamatun Laulujen lauluun.</string>
+    <string name="Sinikello">Kellot eli sinikellot (Campanula) on 300 ruohovartista kasvilajia käsittävä suku kellokasvien heimossa. Lajirunsaimpia kellot ovat Välimeren alueella, erityisesti sen itäpuolella. Euroopassa lajeja on 140–150 ja samoin Turkissa runsaasti. Kelloja kasvaa myös troopiikin alueella vuoristoissa. Jotkin harvat lajeista ovat varpumaisia, kuten Azoreilla kasvava azorienkello (Campanula vidalii). Sukuun sisältyy suuri määrä koristekasveina viljeltyjä lajeja, ja kelloista on paljon jalostettu näyttävästi kukkivia lajikkeita.</string>
+    <string name="Myrkkymuratti">Liaanimyrkkysumakki tai myrkkymuratti (Toxicodendron radicans) on sumakkikasveihin kuuluva kasvi, joka kasvaa Pohjois- ja Keski-Amerikassa sekä Itä-Aasiassa.[3] Se on varsin yleinen monilla Yhdysvaltain esikaupunkialueilla. Myrkkymuratti aiheuttaa kosketettaessa useimmille ihmisille allergisen reaktion, joka voi pahimmillaan olla hengenvaarallinen.</string>
+    <string name="Auringonkukka">Auringonkukka eli isoauringonkukka (Helianthus annuus) on asterikasvien (Asteraceae) heimoon ja auringonkukkien (Helianthus) sukuun kuuluva yksivuotinen kasvi. Auringonkukan siemenistä valmistetaan auringonkukkaöljyä, jota käytetään ruoanlaitossa sekä polttoaineena.</string>
+    <string name="Narsissi">Narsissit eli kruununarsissit (Narcissus) ovat narsissikasvien (Amaryllidaceae) heimon suku. Ne ovat monivuotisia sipulikasveja. Kukat ovat yleensä väriltään keltaisia, valkoisia tai keltavalkoisia ja niissä on lisäteriötorvi. Lehdet ovat kapeita, tasasoukkia ja tylpähköjä. Luonnossa narsisseja kasvaa Etelä-Euroopasta Japaniin ulottuvalla vyöhykkeellä. Narsisseista on kehitetty jo satoja vuosia erilaisia puutarhanarsisseja eri lajien risteytysten tuloksena.</string>
+    v
+    <string name="Rentunruusu">Rentun ruusu on Irwin Goodmanin vuonna 1988 levyttämä kappale. Goodmanin ura oli jo vuosia ollut laskussa, kunnes ”Rentun ruusu” palautti hänet taas maan suosituimpien artistien joukkoon. ”Rentun ruusu” on yksi Goodmanin uran suurimmista hiteistä. Kappale julkaistiin vuoden 1988 samannimisellä albumilla sekä singlenä b-puolenaan ”Esileikkiä”. Kappaleen sävelsi Kassu Halonen ja sanoitti Vexi Salmi. </string>
+    <string name="Jukkapalmu">Jukkapalmu eli kiiltojukka on yksi suosituimmista huonekasveistamme. Sen vehreä ja selkeä kasvutapa sopii tyyliltään moneen erilaiseen tilaan. Jukkapalmu kasvaa puumaiseksi pensaaksi ja se on helppohoitoinen viherkasvi, jonka ainoa perusvaatimus on riittävä valonsaanti.</string>
+    <string name="Yukkapalmu">Kiiltojukka eli jukkapalmu tai yuccapalmu (Yucca elephantipes, syn. Yucca guatemalensis) on eteläamerikkalainen nahkealehtinen kasvi, jota käytetään paljon huonekasvina. Luonnossa jukkapalmu voi kasvaa kymmenmetriseksi. Paksu ja haarautuva runko muistuttaa tyveltä norsun jalkaa. Lehdet ovat kiiltävän tai sinivihreitä ja kasvavat 50–100 cm pitkiksi ja 6–7 cm leveiksi. Kellomaiset kukat ovat tähkämäisenä, suurena huiskilona. Väriltään ne ovat valkoisia tai kermanvalkoisia.</string>
+    <string name="Hortenssia">Hortensiat (Hydrangea) on Itä-Aasiassa ja Amerikassa luonnonvaraisena kasvava kukkakasvisuku, jossa on 70–75 lajia, joihin kuuluu köynnöksiä ja pieniä pensaita. Niitä kasvatetaan koristekasveina suurten kukintojensa takia. Suurin osa lajeista kasvaa luonnonvaraisina Kiinassa ja Japanissa. </string>
+    <string name="Peikko">Peikonlehdet (Monstera) ovat köynnöstäviä, suurilehtisiä kasveja, joita yleisesti kasvatetaan huonekasveina. Ne on helppo tunnistaa suurista, liuskoittuineista ja reikäisistä lehdistään. Peikonlehdet ovat kotoisin Keski- ja Etelä-Amerikasta. Luonnonvaraisena ne voivat kasvaa kymmenien metrien mittaiseksi, huonekasvina parin–kolmen metrin pituiseksi. </string>
+    <string name="Nukkumatti">Paavonnukkumatti eli nukkumatti (Maranta leuconeura) on koppisiemenisiin kuuluva, marantakasvien heimon laji, joka on kotoisin Brasilian sademetsistä. Nukkumatti on pieni, monivartinen viherkasvi ja kasvaa korkeutta noin 20–30 cm. Nukkumattia on pidetty huonekasvina jo 1800-luvulta asti. Se on monivuotinen kasvi eli perenna. </string>
+    <string name="eiOle">Kukkaa ei löydy</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

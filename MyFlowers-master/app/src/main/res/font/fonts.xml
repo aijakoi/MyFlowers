@@ -1,0 +1,19 @@
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="700"
+        app:font="@font/inter"/>
+
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="700"
+        app:font="@font/pacifico"/>
+
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="700"
+        app:font="@font/satisfy"/>
+
+</font-family>

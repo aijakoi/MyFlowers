@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".BluetoothActivity">
+
+
+    <!--Bluetoot icon (ON/OFF) -->
+
+
+    <!--Display whether bluetooth is available or not-->
+    <!-- ON button-->
+
+    <!-- OFF button-->
+
+
+    <!-- Discorablebutton-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/floral_background2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <!-- Near by button-->
+
+    <!-- list of paired devices-->
+
+
+    <!-- Show paired devices-->
+
+    <TextView
+        android:id="@+id/statusBluetoothTv"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@color/secondary_blue"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/bluetoothIv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statusBluetoothTv"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <Button
+        android:id="@+id/onBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/main_blue"
+        android:minWidth="200dp"
+        android:text="Turn on "
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bluetoothIv"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <Button
+        android:id="@+id/offBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/main_blue"
+        android:minWidth="200dp"
+        android:text="Turn Off "
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onBtn"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <Button
+        android:id="@+id/discoverableBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/main_blue"
+        android:minWidth="200dp"
+        android:text="Discoverable"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/offBtn"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <Button
+        android:id="@+id/nearByBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/main_blue"
+        android:minWidth="200dp"
+        android:text="Scan NearBy devices "
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/discoverableBtn"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <Button
+        android:id="@+id/pairedBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/main_blue"
+        android:minWidth="200dp"
+        android:text="Get paired devices"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nearByBtn"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/pairedTv"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:background="@color/secondary_blue"
+        android:minWidth="200dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!-- Show paired devices-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
